@@ -9,17 +9,34 @@
     <header></header>
 
     <nav>
-      <ul class="topnav">
+      <ul class="topnav" id="dropdownClick">
         <li><a href="#Home">Home</a></li>
         <li><a href="#News">News</a></li>
         <li><a href="#Maps">Maps</a></li>
         <li><a href="#About">About</a></li>
         <li class="right"><a href="#Sign-Up">Sign-Up</a></li>
         <li class="right"><a href="#Contact">Contact</a></li>
+        <li class="dropdownIcon">
+          <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
+        </li>
+        <!-- Symbol (Unicode) -->
       </ul>
     </nav>
 
     <main></main>
+
+    <script>
+      function dropdownMenu() {
+        let x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+          /* Change topnav tp toponav.responsive */
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <!-- action click. javaScript-->
   </body>
   <footer></footer>
 </html>
