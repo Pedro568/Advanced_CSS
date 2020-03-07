@@ -1,3 +1,3 @@
 # Advanced_CSS
 Building And Styling Website
-A coffe bar called "Barton"
+For people who whants to cook called "Barton"
