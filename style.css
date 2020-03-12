@@ -179,7 +179,7 @@ div.box {
 }
 
 button {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   font-family: "Montserrat";
   color: #fff;
@@ -193,6 +193,7 @@ button {
 button.learnMore {
   margin: auto;
   display: block;
+  padding: 20px;
 }
 
 div.Icon {
@@ -225,6 +226,29 @@ input[type="text"] {
   padding: 3.5px;
   border-radius: 8px;
 }
+
+footer.footsy {
+
+  background-color: #666;
+
+}
+
+footer.footsy h1 {
+  font-size: 35px;
+  color: #fff;
+
+}
+
+footer.footsy ul {
+  list-style: none;
+  text-align: left;
+
+
+}
+
+
+
+
 
 /*############## Hide de icon ##################*/
 
