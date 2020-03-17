@@ -230,11 +230,13 @@ input[type="text"] {
 footer.footsy {
 
   background-color: #666;
+  padding-left: 12%;
+
 
 }
 
 footer.footsy h1 {
-  font-size: 35px;
+  font-size: 31px;
   color: #fff;
 
 }
@@ -242,10 +244,22 @@ footer.footsy h1 {
 footer.footsy ul {
   list-style: none;
   text-align: left;
-
+  padding-left: 0;
 
 }
 
+footer.footsy ul li {
+color: #fafafa;
+font-size: 15px;
+line-height: 1.2;
+
+}
+
+div.videoContainer iframe {
+
+  box-shadow: 14px 14px 14px 14px rgba(10, 10, 10, 0.15);
+
+}
 
 
 
@@ -316,6 +330,7 @@ ul.topnav li.dropdownIcon {
     width: 100%;
     margin: 0;
     overflow: hidden;
+    box-shadow: 2px 2px 2px;
   }
 
   div.lastIcon img {
@@ -326,4 +341,21 @@ ul.topnav li.dropdownIcon {
   div.lastIcon {
     margin: 10px;
   }
+
+div.mobileStack {
+
+width: 50%;
+display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
 }
